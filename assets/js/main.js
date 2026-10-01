@@ -108,7 +108,7 @@ const BLOCKS = [
 ];
 
 const GALLERY = [
-  // 2025 ambience — Navaratri at Ambience Courtyard
+  // 2025 ambience — Navaratri 
   { src: "assets/img/2025-day5.jpg",  cap: "2025 · Day 5 · Maa Skandamata — yellow silk &amp; marigolds", wide: true },
   { src: "assets/img/2025-day8.jpg",  cap: "2025 · Durgashtami · Maa Mahagauri in golden green" },
   { src: "assets/img/2025-day11.jpg", cap: "2025 · Grand finale — olive-green alankaram" },
