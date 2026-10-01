@@ -1,7 +1,7 @@
 /* ============================================================
    Navaratri & Bathukamma 2026 — main.js
    Edit CONFIG below to plug in real dates, form links & contacts.
-   ============================================================ */==
+   ============================================================ */
 
 const CONFIG = {
   // Countdown target — first day of celebrations (local time)
