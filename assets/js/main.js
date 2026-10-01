@@ -18,7 +18,7 @@ const CONFIG = {
   // Registration/sign-up Google Forms. Add URLs as they become available;
   // leave "" to show a "Coming soon" state on the site.
   forms: {
-    puja:        "https://forms.gle/XfCvJ87piS59FZ3C6",  // Puja registration
+    puja:        "https://docs.google.com/forms/d/1hjG7SERfYpe-bsAd390Tc81OUy17O3Ah5KqxGmOCg6E",  // Puja registration
     sponsorship: "https://forms.gle/CxWpn7DH7vDnDooVA",  // Prasadam Sponsor Form
     saree:       "https://forms.gle/LpLTjft4r9fSfd1QA",  // Saree Sponsor Form
     nomination:  "https://forms.gle/WMw1PiNAGpcsrWMc8",  // Sponsor Nomination Form
