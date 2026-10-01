@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#7a0c1f" />
+  <title>Memories &amp; Past Years · Navaratri &amp; Bathukamma · Ambience Courtyard</title>
+  <meta name="description" content="Our journey — photos from previous years of Navaratri & Bathukamma celebrations at Ambience Courtyard, Manikonda. It all began in 2024." />
+  <meta property="og:title" content="Memories & Past Years · Ambience Courtyard" />
+  <meta property="og:description" content="Photos from previous years of our Navaratri & Bathukamma celebrations — starting 2024." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://mrityunjay.github.io/ambience-navaratri-bathukamma-2026/assets/img/share-banner.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://mrityunjay.github.io/ambience-navaratri-bathukamma-2026/assets/img/share-banner.jpg" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%AA%94%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="fx-layer" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container" aria-label="Primary">
+      <a href="index.html#home" class="brand" aria-label="Home">
+        <span class="brand-mark"><svg class="brand-logo" viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><ellipse cx="12" cy="5.4" rx="2.3" ry="4"/><ellipse cx="12" cy="18.6" rx="2.3" ry="4"/><ellipse cx="5.4" cy="12" rx="4" ry="2.3"/><ellipse cx="18.6" cy="12" rx="4" ry="2.3"/><ellipse cx="7.5" cy="7.5" rx="3.5" ry="2.1" transform="rotate(45 7.5 7.5)"/><ellipse cx="16.5" cy="7.5" rx="3.5" ry="2.1" transform="rotate(-45 16.5 7.5)"/><ellipse cx="7.5" cy="16.5" rx="3.5" ry="2.1" transform="rotate(-45 7.5 16.5)"/><ellipse cx="16.5" cy="16.5" rx="3.5" ry="2.1" transform="rotate(45 16.5 16.5)"/></g><circle cx="12" cy="12" r="2.7" fill="#7a0c1f"/></svg></span>
+        <span class="brand-text">
+          <strong>Navaratri &amp; Bathukamma</strong>
+          <em>2026 · Ambience Courtyard</em>
+        </span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html#navadurga">Navadurga</a></li>
+        <li><a href="index.html#bathukamma">Bathukamma</a></li>
+        <li><a href="index.html#schedule">Schedule</a></li>
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="memories.html" aria-current="page">Memories</a></li>
+        <li><a class="nav-cta" href="index.html#contribute">Contribute</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="mem-hero">
+    <div class="container">
+      <p class="eyebrow">Our journey</p>
+      <h1>Memories &amp; <span class="grad">Past Years</span></h1>
+      <p>
+        Every celebration adds a new page to our community's story. Here's a look back at the
+        Navaratri &amp; Bathukamma festivities at Ambience Courtyard — and how it all began.
+      </p>
+      <a class="mem-back" href="index.html">← Back to 2026 festival</a>
+    </div>
+  </section>
+
+  <!-- ============ MEMORIES BY YEAR ============ -->
+  <section class="section">
+    <div class="container" id="memoriesRoot"><!-- injected by JS --></div>
+  </section>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+    <button class="lb-close" id="lbClose" aria-label="Close">×</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+    <img class="lb-img" id="lbImg" src="" alt="" />
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
+    <p class="lb-caption" id="lbCaption"></p>
+  </div>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark"><svg class="brand-logo" viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor"><ellipse cx="12" cy="5.4" rx="2.3" ry="4"/><ellipse cx="12" cy="18.6" rx="2.3" ry="4"/><ellipse cx="5.4" cy="12" rx="4" ry="2.3"/><ellipse cx="18.6" cy="12" rx="4" ry="2.3"/><ellipse cx="7.5" cy="7.5" rx="3.5" ry="2.1" transform="rotate(45 7.5 7.5)"/><ellipse cx="16.5" cy="7.5" rx="3.5" ry="2.1" transform="rotate(-45 16.5 7.5)"/><ellipse cx="7.5" cy="16.5" rx="3.5" ry="2.1" transform="rotate(-45 7.5 16.5)"/><ellipse cx="16.5" cy="16.5" rx="3.5" ry="2.1" transform="rotate(45 16.5 16.5)"/></g><circle cx="12" cy="12" r="2.7" fill="#7a0c1f"/></svg></span>
+        <h3>Navaratri &amp; Bathukamma</h3>
+        <p>Ambience Courtyard, Manikonda</p>
+        <p class="footer-blessing">From our very first puja in 2024 — may the celebration grow bigger and brighter every year.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html#navadurga">Navadurga</a></li>
+          <li><a href="index.html#bathukamma">Bathukamma</a></li>
+          <li><a href="index.html#schedule">Schedule</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="index.html#contribute">Contribute</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>This page</h4>
+        <ul>
+          <li><a href="index.html">← 2026 festival home</a></li>
+          <li><a href="#memoriesRoot">Past years</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Ambience Courtyard Navaratri &amp; Bathukamma Committee · Made with devotion 🌺</p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script>
+    /* ---- Past-year memories data ---- */
+    // Add a new object each year with its photos in assets/img/.
+    const MEMORIES = [
+      {
+        year: "2024",
+        badge: "Where it began",
+        note: "Our very first Navaratri & Bathukamma at the Courtyard — the first Kalash, the first Bathukamma, and a community coming together.",
+        photos: [
+          { src: "assets/img/2024-idol-bathukamma.jpg", cap: "Maa Durga with our first Bathukamma flower stacks", wide: true },
+          { src: "assets/img/2024-puja.jpg",            cap: "The first community puja — families together" },
+          { src: "assets/img/2024-devi-closeup.jpg",    cap: "Alankaram of Maa Durga — a moment of darshan" },
+        ],
+      },
+      {
+        year: "2025",
+        badge: "Growing bigger",
+        note: "Our second Navaratri &amp; Bathukamma — eleven alankarams across nine nights, a flower tower for Bathukamma, and the whole community celebrating together.",
+        photos: [
+          { src: "assets/img/2025-day5.jpg",  cap: "Day 5 · Maa Skandamata — yellow silk &amp; marigolds", wide: true },
+          { src: "assets/img/2025-day8.jpg",  cap: "Durgashtami · Maa Mahagauri — golden green alankaram" },
+          { src: "assets/img/2025-day11.jpg", cap: "Grand finale — olive-green saree, full flower backdrop" },
+          { src: "assets/img/2025-day1.jpg",  cap: "Day 1 · Maa Shailaputri — blue saree, marigold garland" },
+          { src: "assets/img/2025-day2.jpg",  cap: "Bathukamma flower tower — layers of marigold &amp; chrysanthemum" },
+          { src: "assets/img/2025-day3.jpg",  cap: "Day 3 · Maa Chandraghanta — full puja mandapam view", wide: true },
+          { src: "assets/img/2025-day4.jpg",  cap: "Day 4 · Maa Kushmanda — grey-blue &amp; pooja spread" },
+          { src: "assets/img/2025-day6.jpg",  cap: "Day 6 · Maa Katyayani — red &amp; green alankaram" },
+          { src: "assets/img/2025-day7.jpg",  cap: "Day 7 · Maa Kalaratri — deep blue &amp; maroon silk" },
+          { src: "assets/img/2025-day8b.jpg", cap: "Durgashtami — wide-angle with full puja spread" },
+          { src: "assets/img/2025-day9.jpg",  cap: "Mahanavami · Maa Siddhidatri — pink &amp; gold", wide: true },
+          { src: "assets/img/2025-day10.jpg", cap: "Vijayadashami · Maa in deep red — Dussehra darshan" },
+        ],
+      },
+    ];
+
+    const $ = (s, el = document) => el.querySelector(s);
+    const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+
+    /* ---- Build year blocks ---- */
+    const flat = []; // flat list for the lightbox
+    (function build() {
+      const root = $("#memoriesRoot");
+      if (!MEMORIES.length) { root.innerHTML = '<p class="mem-empty">Photos coming soon 🌸</p>'; return; }
+      MEMORIES.forEach(y => {
+        const block = document.createElement("section");
+        block.className = "year-block";
+        const head = `
+          <div class="year-head reveal">
+            <h2>${y.year}</h2>
+            ${y.badge ? `<span class="year-badge">${y.badge}</span>` : ""}
+            ${y.note ? `<span class="year-note">${y.note}</span>` : ""}
+          </div>`;
+        const grid = document.createElement("div");
+        grid.className = "gallery-grid";
+        y.photos.forEach(p => {
+          const idx = flat.length;
+          flat.push(p);
+          const item = document.createElement("div");
+          item.className = "gallery-item reveal" + (p.wide ? " wide" : "");
+          item.innerHTML = `<img src="${p.src}" alt="${p.cap}" loading="lazy" />`;
+          item.addEventListener("click", () => openLightbox(idx));
+          grid.appendChild(item);
+        });
+        block.innerHTML = head;
+        block.appendChild(grid);
+        root.appendChild(block);
+      });
+    })();
+
+    /* ---- Lightbox ---- */
+    let lbIndex = 0;
+    function openLightbox(i) {
+      lbIndex = i; const g = flat[i];
+      $("#lbImg").src = g.src; $("#lbImg").alt = g.cap; $("#lbCaption").textContent = g.cap;
+      $("#lightbox").classList.add("open"); $("#lightbox").setAttribute("aria-hidden", "false");
+    }
+    function closeLightbox() { $("#lightbox").classList.remove("open"); $("#lightbox").setAttribute("aria-hidden", "true"); }
+    function stepLightbox(d) { openLightbox((lbIndex + d + flat.length) % flat.length); }
+    $("#lbClose").addEventListener("click", closeLightbox);
+    $("#lbPrev").addEventListener("click", () => stepLightbox(-1));
+    $("#lbNext").addEventListener("click", () => stepLightbox(1));
+    $("#lightbox").addEventListener("click", e => { if (e.target.id === "lightbox") closeLightbox(); });
+    document.addEventListener("keydown", e => {
+      if (!$("#lightbox").classList.contains("open")) return;
+      if (e.key === "Escape") closeLightbox();
+      if (e.key === "ArrowLeft") stepLightbox(-1);
+      if (e.key === "ArrowRight") stepLightbox(1);
+    });
+
+    /* ---- Header, nav, scroll, back-to-top ---- */
+    const header = $("#siteHeader"), toggle = $("#navToggle"), menu = $("#navMenu"), toTop = $("#toTop"), progress = $("#scrollProgress");
+    const onScroll = () => {
+      const y = window.scrollY;
+      header.classList.toggle("scrolled", y > 40);
+      toTop.classList.toggle("show", y > 600);
+      const h = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = (h > 0 ? (y / h) * 100 : 0) + "%";
+    };
+    window.addEventListener("scroll", onScroll, { passive: true }); onScroll();
+    toggle.addEventListener("click", () => { const o = menu.classList.toggle("open"); toggle.setAttribute("aria-expanded", o); });
+    $$("#navMenu a").forEach(a => a.addEventListener("click", () => { menu.classList.remove("open"); toggle.setAttribute("aria-expanded", "false"); }));
+    toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+    /* ---- Reveal ---- */
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: 0.12 });
+    $$(".reveal").forEach(r => io.observe(r));
+
+    /* ---- Floating petals ---- */
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      const layer = $(".fx-layer"), emojis = ["🌺","🌼","🌸","🪔","🏵️"], count = window.innerWidth < 640 ? 8 : 14;
+      for (let i = 0; i < count; i++) {
+        const p = document.createElement("span");
+        p.className = "petal"; p.textContent = emojis[i % emojis.length];
+        p.style.left = Math.random() * 100 + "vw";
+        p.style.fontSize = (0.9 + Math.random() * 1.2) + "rem";
+        p.style.animationDuration = (11 + Math.random() * 12) + "s";
+        p.style.animationDelay = (-Math.random() * 20) + "s";
+        layer.appendChild(p);
+      }
+    }
+  </script>
+</body>
+</html>
