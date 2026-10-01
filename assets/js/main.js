@@ -13,7 +13,7 @@ const CONFIG = {
 
   // The "Check your entry" buttons link out to this read-only Google Sheet.
   // NOTE: set the Sheet's sharing to "Anyone with the link — Viewer" (not Editor).
-  sheetView: "https://docs.google.com/spreadsheets/d/1fKaKQjThN3Vm_C4nTHZfL16SZ2uCuHGpwzqKRHgHiMw/edit?gid=15340882#gid=15340882",
+  sheetView: "https://docs.google.com/spreadsheets/d/1ask1IZ_sqfHxdlepjbzwIwkuzgyoCmHDINTxuOcFozY/edit?gid=0#gid=0",
 
   // Registration/sign-up Google Forms. Add URLs as they become available;
   // leave "" to show a "Coming soon" state on the site.
