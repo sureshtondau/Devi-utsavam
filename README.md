@@ -1,4 +1,4 @@
-# Navaratri & Bathukamma 2026 — Ambience Courtyard
+# Navaratri & Bathukamma 2026 — Ambience Courtyard test
 
 A professional, mobile-first, interactive single-page website for the community's
 **Navaratri & Bathukamma** celebrations (10 – 21 October 2026), inspired by (and built to
